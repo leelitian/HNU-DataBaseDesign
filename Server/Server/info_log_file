@@ -1,0 +1,58 @@
+2020-09-09 16:02:31    function (CMyTask::Run)    line 592    1 admin 123456
+
+2020-09-09 16:02:39    function (CMyTask::Run)    line 592    create table student (sno char(12) primary key, sname char(20) unique, sage int, ssex char(2) not null,)
+
+2020-09-09 16:07:16    function (CMyTask::Run)    line 592    1 admin 123456
+
+2020-09-09 16:07:24    function (CMyTask::Run)    line 592    create table student (sno char(12) primary key, sname char(20) unique, sage int, ssex char(2) not null,)
+
+2020-09-09 16:08:40    function (CMyTask::Run)    line 592    1 admin 123456
+
+2020-09-09 16:08:46    function (CMyTask::Run)    line 592    create table student (sno char(12) primary key, sname char(20) unique, sage int, ssex char(2) not null,)
+
+2020-09-09 16:35:40    function (CMyTask::Run)    line 590    1 leelitian 123456
+
+2020-09-09 16:35:59    function (CMyTask::Run)    line 590    1 admin 123456
+
+2020-09-09 16:36:08    function (CMyTask::Run)    line 590    insert into student values('001','张三',18,'男')
+
+2020-09-09 16:36:08    function (CMyTask::Run)    line 590    insert into student values('002','李四',19,'男')
+
+2020-09-09 16:36:08    function (CMyTask::Run)    line 590    insert into student values('003','王五',20,'女')
+
+2020-09-09 16:36:08    function (CMyTask::Run)    line 590    insert into student values('004','小明',21,'男')
+
+2020-09-09 16:36:09    function (CMyTask::Run)    line 590    insert into student values('005','小红',22,'女')
+
+2020-09-10 22:46:44    function (CMyTask::Run)    line 590    2 leelitian 123456 wr
+
+2020-09-10 22:46:49    function (CMyTask::Run)    line 590    1 leelitian 123456
+
+2020-09-10 22:47:29    function (CMyTask::Run)    line 590    create table student (sno char(12) primary key, sname char(20) unique, sage int, ssex char(2) not null,)
+
+2020-09-10 22:47:40    function (CMyTask::Run)    line 590    insert into student values('001','张三',18,'男')
+
+2020-09-10 22:47:40    function (CMyTask::Run)    line 590    insert into student values('002','李四',19,'男')
+
+2020-09-10 22:47:40    function (CMyTask::Run)    line 590    insert into student values('003','王五',20,'女')
+
+2020-09-10 22:47:40    function (CMyTask::Run)    line 590    insert into student values('004','小明',21,'男')
+
+2020-09-10 22:47:42    function (CMyTask::Run)    line 590    insert into student values('005','小红',22,'女')
+
+2020-09-10 22:47:52    function (CMyTask::Run)    line 590    help database
+
+2020-09-10 22:48:07    function (CMyTask::Run)    line 590    help table student
+
+2020-09-10 22:48:18    function (CMyTask::Run)    line 590    delete from student where sno='001'
+
+2020-09-10 22:48:32    function (CMyTask::Run)    line 590    update student set sname='小明' where sname='王五'
+
+2020-09-10 22:49:06    function (CMyTask::Run)    line 590    select sname from student where sno='001'
+
+2020-09-10 22:49:12    function (CMyTask::Run)    line 590    select sname from student where sname='小红'
+
+2020-09-10 22:49:24    function (CMyTask::Run)    line 590    grant select on table student to leelitian;
+
+2020-09-10 22:49:38    function (CMyTask::Run)    line 590    revoke select on table student from leelitian;
+

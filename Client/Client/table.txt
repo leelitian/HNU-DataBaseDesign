@@ -1,0 +1,6 @@
+student 4
+sno char(12) 1
+sname char(20) 2
+sage int 0
+ssex char(2) 3
+

@@ -1,0 +1,3 @@
+cno cname tname
+110 数据库 李雷
+119 C++ 庄重

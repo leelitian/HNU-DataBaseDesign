@@ -1,0 +1,27 @@
+create table student (sno char(12) primary key, sname char(20) unique, sage int, ssex char(2) not null,)
+
+insert into student values('001','张三',18,'男')
+insert into student values('002','李四',19,'男')
+insert into student values('003','王五',20,'女')
+insert into student values('004','小明',21,'男')
+insert into student values('005','小红',22,'女')
+
+help database
+help table student
+
+delete from student where sno='001'
+
+update student set sname='小明' where sname='王五'
+
+create table course (cno char(10) primary key, cname char(20) unique, tname char(10) not null,)
+
+insert into course values('110','数据库','李雷')
+insert into course values('119','C++','庄重')
+
+select sname from student where sno='001'
+
+select sname from student where sname='小红'
+
+grant select on table student to leelitian;
+
+revoke select on table student from leelitian;
